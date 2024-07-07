@@ -1,0 +1,119 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+* {
+    box-sizing: border-box;
+    color: #ddd8b2;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #433431;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.25rem;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+hr {
+    border-color: #ddd8b2;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f25a7a;
+}
+
+#landing-img {
+    max-height: 100vh;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    margin-top: 20vh;
+    width: 40%;
+}
+
+.text-container > p > span {
+    font-size: 1.25rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 1rem;
+}
+
+.link-container > span {
+    margin: 0 0.35rem 0 0.05rem;
+}
+
+.link-container > p {
+    margin: 0;
+}
+
+.highlight-red {
+    color: #f25a7a;
+}
+
+.highlight-blue {
+    color: #5ac7d1;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 2%;
+    border: 5px solid #f25a7a;
+}
+
+.project-description {
+    padding: 1rem;
+}
+
+.project-header {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.song-link {
+    margin: 0.15rem;
+}
