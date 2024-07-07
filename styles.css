@@ -91,6 +91,10 @@ a:hover {
     padding-bottom: 1rem;
 }
 
+.project-intro {
+    padding: 0 10rem;
+}
+
 .project-container {
     display: flex;
     flex-direction: column;
@@ -116,4 +120,27 @@ a:hover {
 
 .song-link {
     margin: 0.15rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+
+    .page-intro {
+        padding: 0;
+    }
+
+    .home-container {
+        flex-direction: column;
+    }
+
+    #landing-img {
+        margin: auto;
+    }
+
+    .text-container {
+        margin: 0 auto;
+        width: 70%;
+    }
 }
