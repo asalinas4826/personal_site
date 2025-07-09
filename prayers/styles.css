@@ -14,3 +14,11 @@ a:hover {
 .litany-text > p {
   margin: 3px 0;
 }
+
+.prayer-section {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
