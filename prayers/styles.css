@@ -1,0 +1,16 @@
+* {
+  color: #ebddb2;
+}
+
+body {
+  background-color: #282828;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #cc241d;
+}
+
+.litany-text > p {
+  margin: 3px 0;
+}

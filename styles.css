@@ -1,146 +1,172 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu+Mono);
-
 * {
-    box-sizing: border-box;
-    color: #ddd8b2;
+  box-sizing: border-box;
+  color: #ebddb2;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #433431;
-    font-family: 'Ubuntu Mono';
-    font-size: 1.25rem;
-    line-height: 1.1;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("./resources/cross_background.png");
+  font-family: "Ubuntu Mono";
+  line-height: 1.1;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 2rem;
 }
 
-hr {
-    border-color: #ddd8b2;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+h3 {
+  font-size: 1.5rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #f25a7a;
+  text-decoration: underline;
+  color: #cc241d;
 }
 
-#landing-img {
-    max-height: 100vh;
+.header-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.home-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.header-container > h1 {
+  margin: 25px 0 5px 3px;
 }
 
-.text-container {
-    margin-top: 20vh;
-    width: 40%;
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.text-container > p > span {
-    font-size: 1.25rem;
+.terminal-prompt {
+  height: 1.75rem;
+  width: 1rem;
+  background-color: #ebddb2;
+  margin-bottom: 9px;
+  margin-top: auto;
+  animation: blink 1s infinite;
 }
 
-.link-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 0 1rem;
+.main-container {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  height: 788px;
+  flex-direction: column;
 }
 
-.link-container > span {
-    margin: 0 0.35rem 0 0.05rem;
+.content-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
 
-.link-container > p {
-    margin: 0;
+.content-section {
+  margin: 5px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  min-width: 140px;
 }
 
-.highlight-red {
-    color: #f25a7a;
+.sidebar {
+  overflow-y: visible;
+  width: 2px;
 }
 
-.highlight-blue {
-    color: #5ac7d1;
+.content {
+  border: 1px solid #ebddb2;
+  background-color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
 }
 
-.container {
-    margin: auto;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.content:hover {
+  border: 1px solid #cc241d;
 }
 
-.footer {
-    margin: 0 auto;
-    padding-bottom: 1rem;
+.content:hover > .section-title {
+  color: #cc241d;
+}
+.section-title {
+  background-color: black;
+  font-size: 0.7rem;
+  margin: 0;
+  top: -8px;
+  position: absolute;
 }
 
-.project-intro {
-    padding: 0 10rem;
+.sidebar-text {
+  font-size: 0.7rem;
 }
 
-.project-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 2%;
-    padding: 1rem;
-    margin-top: 1rem;
+.main-content {
+  flex-grow: 2;
+  display: block;
 }
 
-.project-img {
-    width: 100%;
-    border-radius: 2%;
-    border: 5px solid #f25a7a;
+.text-section-header {
+  margin: 0;
+  color: #cc241d;
 }
 
-.project-description {
-    padding: 1rem;
+#vatican-flag {
+  position: absolute;
+  top: 70px;
+  left: 80%;
 }
 
-.project-header {
-    font-size: 2rem;
-    margin-top: 0;
+#sacred-heart {
+  position: absolute;
+  bottom: 5px;
+  left: 160px;
 }
 
-.song-link {
-    margin: 0.15rem;
+#groyper {
+  position: absolute;
+  bottom: 0;
+  margin: 0 5px;
 }
 
-@media only screen and (max-width: 1200px) {
-    .container {
-        width: 70%;
-    }
+#pope-leo-xiv {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+}
 
-    .page-intro {
-        padding: 0;
-    }
+#san-joselito-img {
+  width: 100%;
+}
 
-    .home-container {
-        flex-direction: column;
-    }
+.blinky-marquee {
+  margin-bottom: 10px;
+  height: 20px;
+}
 
-    #landing-img {
-        margin: auto;
-    }
+.link-list {
+  display: flex;
+  margin-bottom: 20px;
+}
 
-    .text-container {
-        margin: 0 auto;
-        width: 70%;
-    }
+.column {
+  flex: 50%;
+}
+
+.text-link {
+  text-decoration: underline;
 }

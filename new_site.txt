@@ -1,0 +1,47 @@
+Features
+- same features as old site
+- Journal for random thoughts
+- something dedicated to evangelization or catechesis
+- Book review
+- RSS Feed
+- Links page for useful links
+- Quotes
+	- just a list of quotes from things you're reading
+- prayers section (so you never have to look up specific prayers again)
+	- Litany to St. Joseph, Litany to the Holy Ghost
+	- really anything not in the '62 Missal
+- a whole section of the site should be for Catholic content
+	- Contra Feminismum
+	- Contra Saltatum
+
+WebRings
+- https://brisray.com/web/webring-list.htm
+- *nixRing
+- maybe Book Ring, Bonki (for personal sites)
+- maybe Christians of the Internet
+	- also has Catholics
+	- 22
+- Guild of Heaven Tree (Christian tech makers)
+	- has Catholic/Orthobros
+	- 24
+- Cool Club (for cool people w/ cool blog posts)
+- Journal Ring
+- MelonLand Surf Club (personal sites, big ring)
+
+Inspo
+- kopawz.neocities.org
+- troy-sucks.neocities.org/home
+- seafare.neocities.org
+- afnotes.org
+- vhsmaronite.neocities.org
+- denofelari.neocities.org
+- angs-corner.nekoweb.org
+- lukesmith.xyz
+- fisheaters.com
+- july.lol
+
+resources
+- gifcities.org (for tons of old gifs)
+- blinkies.cafe (customizable blinkies/flashing banners)
+- kaomoji.ru (archive of Japanese ASCII emoticons)
+- crt filter https://aleclownes.com/2017/02/01/crt-display.html
