@@ -1,18 +1,29 @@
+To do before site goes live:
+- programming portfolio page
+- make at least one shrine (St. Joselito or St. Therese)
+- put music on site
+- write at least one Short Article
+- make WIP graphics for everything else
+
+To do after:
+- list of English-language monasteries for prayer requests
+- anti-dancing article
+- RSS Feed
+
 Features
 - same features as old site
-- Journal for random thoughts
+	- programming portfolio
 - something dedicated to evangelization or catechesis
-- Book review
 - RSS Feed
-- Links page for useful links
-- Quotes
-	- just a list of quotes from things you're reading
-- prayers section (so you never have to look up specific prayers again)
-	- Litany to St. Joseph, Litany to the Holy Ghost
-	- really anything not in the '62 Missal
 - a whole section of the site should be for Catholic content
 	- Contra Feminismum
 	- Contra Saltatum
+- Resources section
+	- website or programming resources
+	- maybe even a "how to learn to program" or "how to learn anything"
+		- this could be a short article
+	- list of monasteries w/ links to prayer request service
+		- so people can just send their prayer requests to everybody
 
 WebRings
 - https://brisray.com/web/webring-list.htm
