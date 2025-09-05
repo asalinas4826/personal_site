@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  color: #ebddb2;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("../resources/cross_background.png");
+  font-family: "Ubuntu Mono";
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #cc241d;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container > h1 {
+  margin: 25px 0 5px 3px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.terminal-prompt {
+  height: 1.75rem;
+  width: 1rem;
+  background-color: #ebddb2;
+  margin-bottom: 9px;
+  margin-top: auto;
+  animation: blink 1s infinite;
+}
+
+.main-container {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  height: 788px;
+  flex-direction: column;
+}
+
+.content-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.content-section {
+  margin: 5px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  min-width: 140px;
+}
+
+.sidebar {
+  overflow-y: visible;
+  width: 2px;
+}
+
+.content {
+  border: 1px solid #ebddb2;
+  background-color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.content:hover {
+  border: 1px solid #cc241d;
+}
+
+.content:hover > .section-title {
+  color: #cc241d;
+}
+.section-title {
+  background-color: black;
+  font-size: 0.7rem;
+  margin: 0;
+  top: -8px;
+  position: absolute;
+}
+
+.sidebar-text {
+  font-size: 0.7rem;
+}
+
+.main-content {
+  flex-grow: 2;
+  display: block;
+}
+
+.text-section-header {
+  margin: 0;
+  color: #cc241d;
+}
+
+#vatican-flag {
+  position: absolute;
+  top: 70px;
+  left: 80%;
+}
+
+#sacred-heart {
+  position: absolute;
+  bottom: 5px;
+  left: 160px;
+}
+
+#groyper {
+  position: absolute;
+  bottom: 0;
+  margin: 0 5px;
+}
+
+#pope-leo-xiv {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+}
+
+#san-joselito-img {
+  width: 100%;
+}
+
+.blinky-marquee {
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.link-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.text-link {
+  text-decoration: underline;
+}

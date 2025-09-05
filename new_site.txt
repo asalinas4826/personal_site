@@ -4,11 +4,26 @@ To do before site goes live:
 - put music on site
 - write at least one Short Article
 - make WIP graphics for everything else
+- mobile compatibility
 
 To do after:
 - list of English-language monasteries for prayer requests
 - anti-dancing article
 - RSS Feed
+- Feast Day calendar
+	- put in your saint, gives you feast days, and dates to start novenas
+	- warns you of upcoming feast days
+	- all the major saints
+		- start w/ the saints of the Roman canon, 14 helpers, Doctors, and Early
+			Church Fathers
+	- probably all the data would be in a json file or something
+		- allow users to add their own saints
+			- mark them as "unverified"
+			- occasionally go through and verify the list
+			- eventually you could get rid of this as no longer necessary
+			- oh wait, this would require a dedicated back-end for the json file
+	- maybe eventually expose the JSON file to a public API
+		- so anybody could use the saint data for themselves
 
 Features
 - same features as old site
