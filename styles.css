@@ -3,6 +3,11 @@
   color: #ebddb2;
 }
 
+*::selection {
+  background: #cc241d;
+  color: black;
+}
+
 html,
 body {
   margin: 0;
@@ -10,6 +15,10 @@ body {
   height: 100%;
   background-image: url("./resources/cross_background.png");
   font-family: "Ubuntu Mono";
+  line-height: 1.1;
+}
+
+p {
   line-height: 1.1;
 }
 
@@ -169,4 +178,9 @@ a:hover {
 
 .text-link {
   text-decoration: underline;
+  color: #cc241d;
+}
+
+.text-link:hover {
+  color: #fb4934;
 }
